@@ -46,6 +46,7 @@ margin-top: -7px;
 .menu a {
 color: white;
 text-decoration: none;
+padding: 10px 20px;
 }
 
 .menu .active {
@@ -54,4 +55,6 @@ text-decoration: none;
 
 .menu a:hover {
     background-color: aqua;
+    color: #000000;
+    transition: ease-in .5s;
 }
