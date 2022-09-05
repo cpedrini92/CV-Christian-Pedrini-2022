@@ -55,6 +55,6 @@ padding: 10px 20px;
 
 .menu a:hover {
     background-color: aqua;
-    color: #000000;
-    transition: ease-in .5s;
+    color: #191c32;
+    transition: ease-in .4s;
 }
