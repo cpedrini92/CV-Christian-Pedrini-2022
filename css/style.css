@@ -22,13 +22,23 @@ body {
 
 .navbar{
     display: flex;
-    justify-content: ;
+    justify-content:space-between ;
 }
 
 .brand span{
     color: aqua;
 }
 
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
 .menu a {
 color: white;
+text-decoration: none;
 }
