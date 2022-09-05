@@ -20,6 +20,15 @@ body {
         
 }
 
+.navbar{
+    display: flex;
+    justify-content: ;
+}
+
+.brand span{
+    color: aqua;
+}
+
 .menu a {
 color: white;
 }
