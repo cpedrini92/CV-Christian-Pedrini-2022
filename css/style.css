@@ -106,7 +106,7 @@ span {
     }
 
     .about img {
-        width: 40vw;
+        width: 50vw;
         grid-column:1/5;
     }
 
@@ -117,5 +117,17 @@ span {
 
     .about-info h2 {
         font: 2em;
-        background-color: ;
+        color: #191c32 ;
+    }
+
+    .divider {
+        height: 4px;
+        width: 50px;
+        background-color: #56C8D6;
+        margin-top: 4px;
+        margin-bottom: 2em;
+    }
+
+    .about p {
+        margin-bottom: 1em;
     }
