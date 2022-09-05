@@ -114,3 +114,8 @@ span {
         grid-column: 5/10;
         padding: 4em;
     }
+
+    .about-info h2 {
+        font: 2em;
+        background-color: ;
+    }
