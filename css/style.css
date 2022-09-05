@@ -1,25 +1,13 @@
-.main-nav{
-    margin-top: 40px;
-    list-style: none;
-    padding-left: 50 ;
-     
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
 }
 
-.main-nav__item{
-    display: inline-block;
-}
-.main-nav__item a{
-    color: #0a516d;
-    padding: 5px;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: #bacca4;
-}
-
-.main-nav__item a:hover{
-    color: #018790;
-}
-
-.main-nav__item a:active{
-    color:#2b2726;
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x:hidden ;
 }
