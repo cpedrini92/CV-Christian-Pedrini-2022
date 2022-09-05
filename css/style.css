@@ -89,3 +89,11 @@ span {
     background-color: white;
     box-shadow: none; /*al pasar el muose se pone en blanco sin sombra*/
 }
+
+
+.main img {
+    width: 350px;
+    border: 7px solid aqua;
+    height: 520px;
+    
+}
