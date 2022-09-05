@@ -92,14 +92,25 @@ span {
 
 
 .main img {
-    width: 350px;
+    width: 280px;
     border: 7px solid #56C8D6;
-    height: 520px;
+    height: 455px;
 
 }
 
 .about {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     width: 100vw;
+    align-items: center;
+    }
+
+    .about img {
+        width: 40vw;
+        grid-column:1/5;
+    }
+
+    .about-info{
+        grid-column: 5/10;
+        padding: 4em;
     }
