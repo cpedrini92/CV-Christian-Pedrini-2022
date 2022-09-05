@@ -22,7 +22,8 @@ body {
 
 .navbar{
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-between;
+    padding: 2em;
 }
 
 .brand span{
@@ -41,4 +42,12 @@ body {
 .menu a {
 color: white;
 text-decoration: none;
+}
+
+.menu .active {
+    color: aqua;
+}
+
+.menu a:hover {
+    background-color: aqua;
 }
