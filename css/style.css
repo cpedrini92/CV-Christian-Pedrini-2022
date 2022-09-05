@@ -30,7 +30,7 @@ margin-top: -7px;
 }
 
 .brand span{
-    color: aqua;
+    color: #56C8D6;
 }
 
 .menu {
@@ -49,11 +49,11 @@ padding: 10px 20px;
 }
 
 .menu .active {
-    color: aqua;
+    color: #6BED90;
 }
 
 .menu a:hover {
-    background-color: aqua;
+    background-color: #56C8D6;
     color: #191c32;
     transition: ease-in .4s;
 }
@@ -72,12 +72,12 @@ h1 {
 }
 
 span {
-    color: aqua
+    color: #56C8D6;
 }
 
 .descargar-cv{
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: #56C8D6;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -93,7 +93,13 @@ span {
 
 .main img {
     width: 350px;
-    border: 7px solid aqua;
+    border: 7px solid #56C8D6;
     height: 520px;
-    
+
 }
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    }
