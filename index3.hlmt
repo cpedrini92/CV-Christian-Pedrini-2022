@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav class="navbar" >
+            <div class="brand">
+                <h2>C <span>P</span></h2>
+            </div>
+
+<ul class="menu">
+   <!-- <li ><a class="active" href="#">   -->          
+    <li class="main-nav__item"><a href="">Perfil</a></li>
+    <li><a href="#">Resumen</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contacto</a></li>
+</ul>
+</nav>
+ </header>
+
+ <main class="main">
+    <div class="info-conten">
+        <h1> Yo soy <span>Christian</span> Pedrini </h1>
+        <p>Crea tu pagina web por ti mismo solo con Html y Css.  Estaremos utilizando Css grid y Flexbox para realizar el maquetado de nuestra pagina web. </p>
+        <a download="" href="#">
+            <button class="descargar-cv"> Descargar CV</button>
+        </a>
+    </div>
+    <img src="./img/chris.png" alt="FotoChris"> 
+ </main>
+
+    </div>
+
+<div class="about">
+    <img src="./img/Chris2.png" alt="FotoDePerfilChris"> 
+
+
+<div class="about-info">
+<h2>Resumen</h2>
+<div class="divider"></div>
+    <p>Crea tu pagina web por ti mismo solo con Html y Css.  Estaremos utilizando Css grid y Flexbox para realizar el maquetado de nuestra pagina web.</p>
+
+    <p>Crea tu pagina web por ti mismo solo con Html y Css.  Estaremos utilizando Css grid y Flexbox para realizar el maquetado de nuestra pagina web.</p>
+
+    <button class="descargar-cv">Léeme</button>
+    </div>
+    </div>
+
+<div class="portfolio">
+    <div class="portfolio-headings">
+        <h2>Mi Portafolio</h2>
+        <div class="divider"></div>
+    </div>
+
+   <div class="container">
+    <div class="card">
+    <div class="card_img">
+    </div>
+    <div class="card_title">
+        <h2>Descripción de Proyecto</h2>
+    </div>
+    <div class="proyects_links">
+        <a href="">
+            <i class="fa-brands fa-github"></i>
+        </a>
+       <a href="">
+        <i class="fa-light fa-earth-americas"></i>
+       </a>
+        <a href="">
+      <i class="fa-solid fa-code-compare"></i>
+        </a>
+    </div>
+    <button class="projects-details">Títulos de Poryectos</button>
+    </div>
+  </div>   
+</div>
+
+
+</body>
+</html>

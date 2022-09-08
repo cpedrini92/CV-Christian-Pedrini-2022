@@ -1,21 +1,5 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-main{
-    background-color: brown;
-}
-
-p {
-    font-size: 1.6rem;
-}
-
-main div{
-    font-size: 1.6rem;
+@media (min-width:600px){
+    .c2, .c3, .c4{
+        width: 50%;
+    }
 }

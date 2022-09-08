@@ -1,175 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding:0;
 }
 
-body {
-    font-family: "Montserrat", sans-serif;
-    overflow-x:hidden ;
-}
-
-.wrapper, .portfolio {
-    width: 100vw;
-    height: 100vh;
-    background-color: #191c32;
-    color:#fff;
-        
-}
-
-.navbar{
-    display: flex;
-    justify-content:space-between;
-    padding: 2em;
-}
-
-.brand {
-margin-top: -7px;
-}
-
-.brand span{
-    color: #56C8D6;
-}
-
-.menu {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-}
-
-.menu li{
-    list-style: none;
-}
-.menu a {
-color: white;
-text-decoration: none;
-padding: 10px 20px;
-}
-
-.menu .active {
-    color: #6BED90;
-}
-
-.menu a:hover {
-    background-color: #56C8D6;
-    color: #191c32;
-    transition: ease-in .4s;
-}
-
-.main{
-    margin: 0 auto;
-    width: 80vw;
-    height: 80vw;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   /*  align-items: center; */
-}
-
-h1 {
-    font-size: 3rem;
-    margin-top: 20px;
+h1{
+    color: purple;
+    font-family:  serif;
     margin-bottom: 20px;
-  
-}
-
-span {
-    color: #56C8D6;
-}
-
-.descargar-cv{
-    padding: 10px 20px;
-    background-color: #56C8D6;
-    border: none;
-    border-radius: 20px;
-    margin-top: 10px;
-    cursor: pointer;   /*manito */
-    box-shadow: 1px 3px 8px -5px rgba(182, 231, 200, .69) /* sombreado*/ 
-}
-
-.descargar-cv:hover {
-    background-color: white;
-    box-shadow: none; /*al pasar el muose se pone en blanco sin sombra*/
 }
 
 
-.main img {
-    width: 320px;
-    border: 7px solid #56C8D6;
-   display: flex;
-   
-
+.title{
+    font-size:  18px;
+    font-family: monospace;
 }
 
-.about {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    width: 100vw;
-    align-items: center;
-    }
+.nav{
+  margin-top: 10px;
+  list-style-type:none;
+  padding-left: 0px;
+}
 
-    .about img {
-        width: 50vw;
-        grid-column:1/5;
-    }
+.nav li{
+    display: inline-block;
+}
 
-    .about-info{
-        grid-column: 5/10;
-        padding: 4em;
-    }
+.nav a {
+    color:white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none ;/*saca la linea bajo el texto*/
+}
 
-    .about-info h2 {
-        font: 2em;
-        color: #191c32 ;
-    }
+.nav .blog{
+    background-color:red}
 
-    .divider {
-        height: 4px;
-        width: 50px;
-        background-color: #56C8D6;
-        margin-top: 4px;
-        margin-bottom: 2em;
-    }
-
-    .about p {
-        margin-bottom: 1em;
-    }
-
-    .portfolio-headings{
-    width: 100vw;
-    padding: 5em
-    }
-
-    .portfolio-headings h2 {
-        font-size: 2.5em;
-  }
-
-  .portfolio .container {
-    width: 80vw;
-    height: 80hw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-  }
-
-  .card {
-    width: 300px;
-    
-  }
-
-  .card_img {
+/* .c1, .c2, .c3, .c4, .c5{
     width: 100%;
+    min-width: 150px;
     height: 150px;
-    background-image: url(../img/Chris2.png);
-    background-size: cover;
-  }
+}
 
-  .card_title {
-    padding: 20px;
-  }
+.c1 {
+    background-color: brown;
+}
 
- .proyects_links {
-    display: flex;
-    justify-content: space-evenly;/* espacio equitativo*/
- } 
+.c2 {
+    background-color: gold;
+}
+
+.c3 {
+    background-color: blueviolet;
+}
+
+.c4 {
+    background-color: aquamarine;
+}
+
+.c5 {
+    background-color: darkorange;
+}
+*/ 
