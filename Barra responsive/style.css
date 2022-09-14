@@ -69,9 +69,8 @@ body{
     font-size: 30px;
     padding: 0 20px;
     line-height: 60px;
-
+    cursor:pointer;
     display: none;
-
 }
 
 @media(max-width:768px){
@@ -129,5 +128,9 @@ body{
     
     .nav-menu_visible{
 left: 0;
+    }
+   
+    .nav-toggle:focus:not(:focus-visible){
+        outline: none;
     }
 }
